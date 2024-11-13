@@ -1,0 +1,15 @@
+#include<sdtio.h>
+
+  struct node {
+               int data;
+               struct node* left;
+               struct node* right;
+               int hight;
+  };
+
+    int higt(struct node* node)
+        {
+            if (node == Null)return 0;
+            retun node->hight; 
+        }
+  
